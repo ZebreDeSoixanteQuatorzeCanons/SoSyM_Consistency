@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TURTLEGMODELING version="4.0 beta" ANIMATE_INTERACTIVE_SIMULATION="true" ACTIVATE_PENALTIES="true" UPDATE_INFORMATION_DIPLO_SIM="true" ANIMATE_WITH_INFO_DIPLO_SIM="true" OPEN_DIAG_DIPLO_SIM="false" LAST_SELECTED_MAIN_TAB="7" LAST_SELECTED_SUB_TAB="0" TAGS="deactivated root" SHOW_TAGS="true" REMOVE_NETWORKING="true">
+<TURTLEGMODELING version="5.0 alpha" ANIMATE_INTERACTIVE_SIMULATION="true" ACTIVATE_PENALTIES="true" UPDATE_INFORMATION_DIPLO_SIM="true" ANIMATE_WITH_INFO_DIPLO_SIM="true" OPEN_DIAG_DIPLO_SIM="false" LAST_SELECTED_MAIN_TAB="7" LAST_SELECTED_SUB_TAB="0" TAGS="deactivated root" SHOW_TAGS="true" REMOVE_NETWORKING="true">
 <AISuggestions>
+
 </AISuggestions>
+
 <Modeling type="Avatar Analysis" nameTab="UCD" >
 <UseCaseDiagramPanel name="UCD1" minX="10" maxX="2500" minY="10" maxY="1500" zoom="1.0" >
 <CONNECTOR type="111" id="1" index="0" uid="e6f556f3-69bb-477a-872b-d768600a40a7" >
@@ -8138,16 +8140,14 @@ must be interconnected with at least one block not representing an actor.
 </CONNECTOR>
 <COMPONENT type="301" id="3825" index="6" uid="1c9d2b0e-4bf2-48fa-b7c8-27e929e3eb8c" >
 <cdparam x="1002" y="49" />
-<sizeparam width="482" height="75" minWidth="20" minHeight="10" maxWidth="2000" maxHeight="2000" minDesiredWidth="0" minDesiredHeight="0" />
+<sizeparam width="492" height="118" minWidth="20" minHeight="10" maxWidth="2000" maxHeight="2000" minDesiredWidth="0" minDesiredHeight="0" />
 <hidden value="false" />
 <cdrectangleparam minX="10" maxX="2500" minY="10" maxY="1500" />
 <infoparam name="UML Note" value="Incoherencies:
 1. Mismatch in signal name &apos;controlSignal_8191&apos; in Controller block, should likely 
     match &apos;controlSignal&apos; as in Bow_Thrusters for consistency.
- -&gt; Partial OK (the name has been changed in the correction loop to be aligned with
-the corresponding signal, however to respect RB5 an &quot;inconsistent&quot; name featuring
-a numering suffix has finally been added.)
-" />
+ -&gt; Partial OK (the name has well been changed in the correction loop to be aligned with the corresponding
+signal, however a new &quot;inconsistent&quot; name featuring a new suffix has finally been added.)" />
 <new d="false" />
 <TGConnectingPoint num="0" id="3809" />
 <TGConnectingPoint num="1" id="3810" />
@@ -8170,9 +8170,8 @@ a numering suffix has finally been added.)
 <Line value="Incoherencies:" />
 <Line value="1. Mismatch in signal name &apos;controlSignal_8191&apos; in Controller block, should likely " />
 <Line value="    match &apos;controlSignal&apos; as in Bow_Thrusters for consistency." />
-<Line value=" -&gt; Partial OK (the name has been changed in the correction loop to be aligned with" />
-<Line value="the corresponding signal, however to respect RB5 an &quot;inconsistent&quot; name featuring" />
-<Line value="a numering suffix has finally been added.)" />
+<Line value=" -&gt; Partial OK (the name has well been changed in the correction loop to be aligned with the corresponding" />
+<Line value="signal, however a new &quot;inconsistent&quot; name featuring a new suffix has finally been added.)" />
 </extraparam>
 </COMPONENT>
 
@@ -9302,15 +9301,14 @@ a numering suffix has finally been added.)
 </CONNECTOR>
 <COMPONENT type="301" id="4274" index="8" uid="76d0575e-70fb-47ac-835b-ee23c7dee479" >
 <cdparam x="534" y="881" />
-<sizeparam width="904" height="171" minWidth="20" minHeight="10" maxWidth="2000" maxHeight="2000" minDesiredWidth="0" minDesiredHeight="0" />
+<sizeparam width="914" height="254" minWidth="20" minHeight="10" maxWidth="2000" maxHeight="2000" minDesiredWidth="0" minDesiredHeight="0" />
 <hidden value="false" />
 <cdrectangleparam minX="10" maxX="2500" minY="10" maxY="1500" />
 <infoparam name="UML Note" value="Incoherencies:
 1. The signal name &apos;controlSignal_8191&apos; in Controller block for the Bow_Thrusters does not match the standardized naming convention and might be a typo. 
     Expected to be &apos;controlSignal&apos; to match the input signal in the Bow_Thrusters block.
- -&gt; Partial OK (the name has been changed in the correction loop to be aligned with
-the corresponding signal, however to respect RB5 an &quot;inconsistent&quot; name featuring
-a numering suffix has finally been added.)
+ -&gt; Partial OK (the name has well been changed in the correction loop to be aligned with the corresponding
+signal, however a new &quot;inconsistent&quot; name featuring a new suffix has finally been added.)
 
 
 2. There&apos;s no explicit block or representation for the user interface to interact with the Control Console, which was described as a subsystem in the specification
@@ -9342,9 +9340,8 @@ a numering suffix has finally been added.)
 <Line value="Incoherencies:" />
 <Line value="1. The signal name &apos;controlSignal_8191&apos; in Controller block for the Bow_Thrusters does not match the standardized naming convention and might be a typo. " />
 <Line value="    Expected to be &apos;controlSignal&apos; to match the input signal in the Bow_Thrusters block." />
-<Line value=" -&gt; Partial OK (the name has been changed in the correction loop to be aligned with" />
-<Line value="the corresponding signal, however to respect RB5 an &quot;inconsistent&quot; name featuring" />
-<Line value="a numering suffix has finally been added.)" />
+<Line value=" -&gt; Partial OK (the name has well been changed in the correction loop to be aligned with the corresponding" />
+<Line value="signal, however a new &quot;inconsistent&quot; name featuring a new suffix has finally been added.)" />
 <Line value="" />
 <Line value="" />
 <Line value="2. There&apos;s no explicit block or representation for the user interface to interact with the Control Console, which was described as a subsystem in the specification" />
